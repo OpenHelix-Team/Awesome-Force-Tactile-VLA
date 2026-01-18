@@ -9,7 +9,6 @@ This repository summarizes recent advances in the **VLA + Force/Tactile** paradi
 If you find this repository useful, please giving this list a star ⭐. Feel free to share it with others!
 
 # **Force Sensing & Force-Aware Manipulation**
-
 | Method | Title | Venue | Date | Code/Project | Key feature/finding |
 | --- | --- | --- | --- | --- | --- |
 | [FoAR](http://arxiv.org/abs/2411.15753) | FoAR: Force-Aware Reactive Policy for Contact-Rich Robotic Manipulation | Arxiv | 5/2025 | [Project](https://tonyfang.net/FoAR/) | <details><summary>Details</summary>High-frequency F/T + vision fusion via future contact predictor; dynamic force usage adjustment; >baseline in occlusion/disturbance tasks</details> |
@@ -35,6 +34,7 @@ If you find this repository useful, please giving this list a star ⭐. Feel fre
 
 | Method | Title | Venue | Date | Code/Project | Key feature/finding |
 | --- | --- | --- | --- | --- | --- |
+| [DreamTacVLA](https://arxiv.org/abs/2512.23864) | Learning to Feel the Future: DreamTacVLA for Contact-Rich Manipulation | Arxiv | 12/2025 |  | <details><summary>Details</summary>a hierarchical perception scheme with a tactile world model that predicts future tactile signals </details> |
 | [Surformer v2](http://arxiv.org/abs/2509.04658) | Surformer v2: A Multimodal Classifier for Surface Understanding from Touch and Vision | Arxiv | 9/2025 |  | <details><summary>Details</summary>Late(decision-level) fusion with Efficient V-Net (vision) + encoder-only transformer (tactile); 99%+ accuracy on Touch and Go dataset; real-time inference</details> |
 | [Tac2Motion](http://arxiv.org/abs/2509.17812) | Tac2Motion: Contact-Aware Reinforcement Learning with Tactile Feedback for Robotic Hand Manipulation | Arxiv | 9/2025 | [Video](https://youtu.be/poeJBPR7urQ) | <details><summary>Details</summary>Tactile reward shaping + embedding; firm grasping + smooth finger gaiting; real-world transfer to Shadow Robot for lid opening</details> |
 | [CLTP](http://arxiv.org/abs/2505.08194) | CLTP: Contrastive Language-Tactile Pre-training for 3D Contact Geometry Understanding | Arxiv | 5/2025 | [Project](https://sites.google.com/view/cltp/) | <details><summary>Details</summary>50k+ tactile 3D point cloud-language pairs; contact-state-aware (location/shape/force); zero-shot 3D classification + LLM interaction</details> |
